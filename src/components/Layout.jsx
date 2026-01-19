@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "./Header";
-import SideBar from "./SideBar";
+import Sidebar from "./Sidebar";
 import StatCard from "../dashboard/Dashboard";
 import { Route, Routes } from "react-router-dom";
 import Analytics from "../dashboard/Analytics";
@@ -14,7 +14,7 @@ const Layout = () => {
 
   return (
     <div className="flex h-screen w-full overflow-hidden">
-      <SideBar />
+      <Sidebar />
 
       <div className="flex-1 min-w-0 flex flex-col">
         <Header onSearchChange={setSearchTerm} />
@@ -35,3 +35,4 @@ const Layout = () => {
 };
 
 export default Layout;
+
