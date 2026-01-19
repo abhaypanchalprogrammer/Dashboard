@@ -86,7 +86,7 @@ const Charts = (props) => {
   };
   return (
     <div>
-      <div className="charts lg:grid-cols-3 gap-6 w-full">
+      <div className="charts grid grid-cols-1 lg:grid-cols-3 gap-6 w-full">
         <div className=" lg:col-span-2 h-64 sm:h-100 lg:h-65 bg-white p-5 rounded-md shadow-lg">
           <Line data={barChartData} options={barChartOptions} />
         </div>
@@ -100,6 +100,7 @@ const Charts = (props) => {
 };
 
 export default Charts;
+
 
 
 
