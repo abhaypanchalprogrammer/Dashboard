@@ -13,7 +13,7 @@ const Header = ({ onSearchChange }) => {
             type="text"
             placeholder="Search"
             onChange={(e) => onSearchChange(e.target.value)}
-            className="bg-transparent flex-1 focus:outline-none text-gray-700"
+            className="ml-5 bg-transparent flex-1 focus:outline-none text-gray-700"
           />
         </div>
 
@@ -60,5 +60,6 @@ const Header = ({ onSearchChange }) => {
 };
 
 export default Header;
+
 
 
