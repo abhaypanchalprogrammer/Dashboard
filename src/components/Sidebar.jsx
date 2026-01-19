@@ -52,7 +52,7 @@ const Sidebar = () => {
             alt="user"
             className="h-24 w-24 rounded-full border border-blue-500"
           />
-          <h2 className="text-xl text-gray-100">John Doe</h2>
+          <h2 className="text-xl text-gray-100">Abhay Panchal</h2>
           <p className="text-gray-300">Admin</p>
         </div>
 
@@ -84,4 +84,5 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+
 
