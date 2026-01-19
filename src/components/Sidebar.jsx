@@ -21,7 +21,7 @@ const info = [
   { icon: <FaTools />, title: "Settings", to: "/settings" },
 ];
 
-const SideBar = () => {
+const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -83,4 +83,5 @@ const SideBar = () => {
   );
 };
 
-export default SideBar;
+export default Sidebar;
+
