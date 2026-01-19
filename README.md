@@ -7,7 +7,7 @@ This project focuses on **frontend responsibilities only**.
 🚀 Features
 
 - ⚛️ Built with **React + Vite**
-- 📡 **Real API integration** using `dummyapi`
+- 📡 API integration using dummyapi (mock backend)
 - ⏳ Loading states with **Skeleton UI**
 - ❌ Error handling with **Retry functionality**
 - 🔄 Manual retry on API failure
