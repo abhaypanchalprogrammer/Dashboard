@@ -40,7 +40,7 @@ const StatCard = ({ searchTerm }) => {
       product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       product.category.toLowerCase().includes(searchTerm.toLowerCase()),
   );
-
+  const totalItems = filteredProducts.length;
   const totalValue = filteredProducts.reduce(
     (sum, product) => sum + product.price * product.stock,
     0,
@@ -72,7 +72,7 @@ const StatCard = ({ searchTerm }) => {
     <div className="flex flex-col gap-6 w-full">
       <Intro />
       <Cards
-        products={products.length}
+        products={totalItems}
         totalValue={totalValue.toLocaleString()}
         totalCategories={totalCategories}
       />
